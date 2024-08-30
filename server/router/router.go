@@ -1,7 +1,7 @@
 package router
 
 import (
-	"xunami-server/server/controller"
+	"github.com/TanishkN/xunami-server/server/controller"
 
 	"github.com/gin-gonic/gin"
 )

@@ -5,6 +5,10 @@ import (
 	"log"
 
 	firebase "firebase.google.com/go/v4"
+	"github.com/TanishkN/xunami-server/auth"
+	"github.com/TanishkN/xunami-server/db"
+	"github.com/TanishkN/xunami-server/server/controller"
+	"github.com/TanishkN/xunami-server/server/router"
 	"google.golang.org/api/option"
 )
 

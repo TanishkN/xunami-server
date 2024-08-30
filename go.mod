@@ -1,4 +1,4 @@
-module xunami_server
+module github.com/TanishkN/xunami-server
 
 go 1.19
 

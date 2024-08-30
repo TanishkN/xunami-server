@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"xunami-server/auth"
+	"github.com/TanishkN/xunami-server/auth"
 
 	"github.com/gin-gonic/gin"
 )
