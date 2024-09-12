@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom'; 
-import AppContent from '../frontend/AppContent';
-import AppFooter from '../frontend/AppFooter';
+import AppContent from './AppContent';
+import AppFooter from './AppFooter';
 
+const apiUrl = process.env.REACT_APP_API_URL;
 class App extends Component {
   constructor(props) {
     super(props);

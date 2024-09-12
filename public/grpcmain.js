@@ -2,8 +2,6 @@ const path = require("path");
 const grpc = require("@grpc/grpc.js");
 const protoLoader = required("@grpc/proto-loader");
 
-
-
 const proto = protoLoader.loadSync(path.join(__dirname,"..","post_service.proto"));
 const definition = grpc.loadPackageDefinition(proto); ////Load definitios from proto file into grpc frmwork
 

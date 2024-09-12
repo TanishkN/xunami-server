@@ -1,0 +1,8 @@
+
+//Success URL --> //stripe session if Fail or give New Session
+//Cancel URL back button 
+
+// Modifies the price in the price: 
+//mode: 'subscription' or 'payment'
+//Need to save session ID to save to  the user cID, 
+// Once button is clicked session is opened: URL 

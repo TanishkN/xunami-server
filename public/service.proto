@@ -7,7 +7,13 @@ message Post{
 }
 
 message Empty{}
-service PostService{
-    rpc GetPosts(Empty) returns
-
+message PostList{
+    repeated Post posts =1;
 }
+
+#What is being sent 
+service PostService{
+    rpc GetPosts(Empty) returns {PostList}{}:
+}
+
+

@@ -7,3 +7,8 @@ Email Verification
 Dashboard 
 Track Section
 Profile
+
+Holds balance of the user. 
+Outsource profile feed and Trade Replay and Saved Strats. (DB) 
+
+# Does not include profile section or forwrd paper trading engine 

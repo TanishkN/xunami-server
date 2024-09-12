@@ -20,6 +20,20 @@ func main() {
 	}
 	defer dbConn.Close()
 
+	/*another way to create a connection to local firebase and create a doc:
+		ctx:=context.Background()
+		conf:=&firebase.Config(ProjectID:"xunami-userbase")
+		app,err:=firebase.NewApp(ctx,conf)
+
+		client,err:=app/Firestore(ctx)
+		ref:=client.Collection("todos").NewDoc()
+		result,err:=ref.Set(ctx,map[string]interface{}{
+		"title":"Name"
+		"text1":"SOMETHING"
+		})
+	programmer here wants to create todos
+	*/
+
 	// Create a Firebase app instance
 	opt := option.WithCredentialsFile("./service-account-key.json")
 	app, err := firebase.NewApp(context.Background(), nil, opt)
